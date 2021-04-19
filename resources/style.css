@@ -1,0 +1,30 @@
+﻿body {
+    background-color: aliceblue;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    border: 0;
+    margin: 0;
+}
+
+#header {
+    width: 100vw;
+    height: 160px;
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 5em;
+    color: darkviolet;
+}
+
+#context {
+    width: calc(100vw - 40px);
+    height: calc(100vh - 300px);
+    text-align: justify;
+    margin: 20px;
+    color: cornflowerblue;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+}
