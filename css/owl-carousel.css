@@ -6,7 +6,14 @@
 /*
  *  Owl Carousel - Core
  */
-.owl-carousel {
+
+ .owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item{
+  /*fix owl's inability to drag vertically on mobiles*/
+  -ms-touch-action: auto;
+      touch-action: auto;
+}
+
+ .owl-carousel {
   display: none;
   width: 100%;
   -webkit-tap-highlight-color: transparent;
